@@ -1,0 +1,29 @@
+body{
+    margin: 0;
+}
+
+header{
+    background-color: darkblue; 
+    color: white;
+}
+
+.headerNav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 3px 10px;
+    font-weight: 800;
+    font-family: 'Courier New', Courier, monospace;
+}
+.logoh{ color: rgb(94, 241, 94); }
+
+.navLink > a{ 
+    color: rgb(237, 49, 49);
+    text-decoration: none;
+    margin: 0 12px;
+}
+.navLink > a:hover {
+    text-decoration: underline  ;
+}

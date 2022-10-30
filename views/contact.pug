@@ -1,0 +1,19 @@
+doctype html  
+html(lang='en')  
+    head
+    title Contact
+    style 
+        include index.css
+    body
+    include ./component/headerNav.pug
+    h1.maxWith Let's  Contact us :
+    div.maxWith
+        form.formContact( method="POST", action="/sendMessage" )
+            
+            label(for="") email 
+            input(type="text", name="")
+
+            label(for="")  write your message here
+            textarea(name="", cols="30", rows="10", placeholder="Any suposition or suggestions you can send to us." )  
+
+            input(type="submit", value="Send")

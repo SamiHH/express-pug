@@ -1,0 +1,16 @@
+doctype html  
+html(lang='en')  
+    head
+        title Error Server 
+        style  
+            include index.css
+    body
+        include ./component/headerNav.pug
+
+        div.container.maxWith
+            h1 This is an ERROR Server
+            h2 404 on this Time at :
+            h3=dateWork
+
+            h4=error.day
+            h4=error.hour

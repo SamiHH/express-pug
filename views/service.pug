@@ -1,0 +1,19 @@
+doctype html  
+html(lang='en')  
+    head
+    title Service
+    style 
+        include index.css
+    body
+    include ./component/headerNav.pug
+    h1.maxWith This is a Our Service page
+    //- div.container
+
+    mixin listOf
+        ul.maxWith
+            li Cool Pug example!
+            li Lorem ipsum dolor sit.
+            li Lorem ipsum!
+    +listOf
+    +listOf
+    +listOf
